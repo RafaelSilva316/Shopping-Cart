@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import piecesList from "./imagesList";
 import { NavLink } from "react-router-dom";
 
 function Cart(props) {
-  const [total, setTotal] = useState(0);
-  const [pieces, setPieces] = useState(Object.keys(props.cartObj));
+  const pieces = Object.keys(props.cartObj);
 
   const findTotal = (obj, ref) => {
     let total = 0;
@@ -22,7 +21,7 @@ function Cart(props) {
         {pieces.map((key, index) => {
           // console.log(`${props.cartObj} : ${props.cartObj[key]}`);
           console.log(props.cartObj);
-          if (props.cartObj[key] != 0) {
+          if (props.cartObj[key] !== 0 || props.cartObj[key] !== "0") {
             return (
               <li key={index}>
                 <img
