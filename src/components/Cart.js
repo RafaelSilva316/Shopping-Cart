@@ -21,7 +21,7 @@ function Cart(props) {
         {pieces.map((key, index) => {
           // console.log(`${props.cartObj} : ${props.cartObj[key]}`);
           console.log(props.cartObj);
-          if (props.cartObj[key] !== 0 || props.cartObj[key] !== "0") {
+          if (props.cartObj[key] != 0) {
             return (
               <li key={index}>
                 <img
