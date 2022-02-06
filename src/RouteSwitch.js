@@ -43,7 +43,7 @@ const RouteSwitch = () => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar numItems={findTotalItems(cart)} />
       <Routes>
         <Route path="/" element={<App />} />
