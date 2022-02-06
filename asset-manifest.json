@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/RafaelSilva316/Shopping-Cart.git/static/css/main.25e50658.css",
+    "main.js": "/RafaelSilva316/Shopping-Cart.git/static/js/main.92587e63.js",
+    "static/media/bishop.png": "/RafaelSilva316/Shopping-Cart.git/static/media/bishop.97fe782736deb0b6261c.png",
+    "static/media/rook.png": "/RafaelSilva316/Shopping-Cart.git/static/media/rook.a02901fa375da39590fd.png",
+    "static/media/pawn.png": "/RafaelSilva316/Shopping-Cart.git/static/media/pawn.1a7516cf17cc587528a1.png",
+    "static/media/knight.png": "/RafaelSilva316/Shopping-Cart.git/static/media/knight.b6ee8c13ed12d66afa95.png",
+    "static/media/shoppingBag.svg": "/RafaelSilva316/Shopping-Cart.git/static/media/shoppingBag.63e17ae02845ae31c371.svg",
+    "index.html": "/RafaelSilva316/Shopping-Cart.git/index.html",
+    "static/media/shopping2.svg": "/RafaelSilva316/Shopping-Cart.git/static/media/shopping2.cc2c73e403cfe058123b.svg",
+    "main.25e50658.css.map": "/RafaelSilva316/Shopping-Cart.git/static/css/main.25e50658.css.map",
+    "main.92587e63.js.map": "/RafaelSilva316/Shopping-Cart.git/static/js/main.92587e63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25e50658.css",
+    "static/js/main.92587e63.js"
+  ]
+}
